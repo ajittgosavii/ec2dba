@@ -1,6 +1,7 @@
-import tkinter as tk
-from tkinter import ttk, messagebox, filedialog
-import csv
+import streamlit as st
+import pandas as pd
+import io
+import base64
 from docx import Document
 from ec2_sql_sizing import EC2DatabaseSizingCalculator
 
